@@ -2,7 +2,7 @@ package project.dao;
 
 public class ProjectDAO {
 	
-//	»õ·Î¿î ProjectDAO ¸¸µé¾îºÃ´Ù.
+//	ìƒˆë¡œìš´ ProjectDAO ìƒì„±.
 	static {
 		try {
 			Class.forName("oracle.jdbc.OracleDriver");
