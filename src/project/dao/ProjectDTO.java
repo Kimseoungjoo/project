@@ -1,12 +1,14 @@
 package project.dao;
 
-@Getter
-@Setter
-@ToString
-@AllArgsConstructor
-@NoArgsConstructor
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 public class ProjectDTO {
-	private int deptno;
-	private String dname;
-	private String loc;
+	private int classNo;
+	private int classLevel;
+	private int classGrade;
+	private String teacher;
+	
+	
 }
